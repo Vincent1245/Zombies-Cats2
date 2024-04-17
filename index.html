@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombies and Cats</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Zombie Pawtrol</h1>
+    <table id="game-board"></table>
+    <div id="controls">
+        <button class="west" onclick="moveCat('W')">⬅</button>
+        <button class="north" onclick="moveCat('N')">⬆</button>
+        <button class="south" onclick="moveCat('S')">⬇</button>
+        <button class="east" onclick="moveCat('E')">⮕</button>
+    </div>
+    <button id="startbutton" onclick="startGame()">Starta spel</button>
+    </div>
+    <br> <br>
+    <div id="playerscore" class="playerscore">Poäng: <span id="scorevalue">0</span></div>
+    
+    
+    <script src="script/script.js" defer></script>
+
+</body>
+</html>
